@@ -1,0 +1,79 @@
+/*estilizando a div do produto*/
+.Img {
+    width: 1000px;
+}
+
+.divProduto {
+    background-color: #f0f0f0;
+    width: 1000px;
+    height: 420px;
+    margin-left: 90px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.precoAntigo {
+    font-size: small;
+    text-decoration: line-through;
+    color: #090a31;
+}
+
+.descricao {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+.precoProduto {
+    font-size: 30px;
+    display: column;
+}
+.infoProduto {
+    color: #090a31;
+    display: block;
+}
+
+/*estilizando a div do botão de compra*/
+.divCarrinho {
+    display: flex;
+}
+
+.botaoCarrinho {
+    height: 50px;
+    margin-top: 30px;
+    background-color: #090a31;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*banner de ofertas*/
+.bannerOfertas {
+    background-color: rgb(4, 0, 255);
+    color: yellow;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.tituloPiscante {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: cursive;
+    animation: piscando 0.15s infinite;
+}
+
+@keyframes piscando {
+  25% {
+    color: rgb(255, 0, 0);
+  }
+  50% {
+    color:rgb(251, 255, 0);
+  }
+  75% {
+    color: rgb(72, 255, 0);
+  }
+} 

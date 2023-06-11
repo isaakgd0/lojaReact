@@ -1,0 +1,101 @@
+.Fundo {
+    display: flex;
+    background-color: #090a31;
+}
+
+.titulo {
+  font-size: x-large;
+  margin: 0px 0px 0px 15px;
+  color: #fff;
+  animation: piscar 0.15s infinite;
+}
+
+@keyframes piscar {
+  25% {
+    color: white;
+  }
+  25% {
+    color:rgb(160, 155, 255);
+  }
+} 
+
+.botaoCadastro {
+    background-color: #090a31;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    height: 45px;
+    margin: 46px 2px 2px 2px;
+    cursor: pointer;
+}
+
+.BarraPesquisa {
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: left;
+    width: 800px;
+    height: 40px;
+    margin: 45px 20px 50px 30px;
+}
+
+.botaoResumo {
+  background-color: #090a31;
+  color: #fff;
+  display: flex;
+  padding: 10px;
+  margin: 46px 2px 2px 2px;
+  cursor: pointer;
+}
+
+/*Estilizando o cabeçalho secundário*/
+.corpoH2 {
+  background-color: #090a31;
+  height: 100px;
+}
+
+.botaoHome {
+  background-color: #090a31;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 23px;
+}
+
+.BarraPesquisaH2 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  text-align: left;
+  width: 800px;
+  height: 30px;
+  margin: 40px 20px 0px 30px; 
+}
+
+.botaoCadastroH2 {
+  background-color: #090a31;
+  color: #fff;
+  padding: 10px;
+  margin: 40px 2px 2px 2px;
+  cursor: pointer;
+}
+
+.botaoResumoH2 {
+  background-color: #090a31;
+  color: #fff;
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: 23px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+
+.divLinda {
+  margin-left: 50px;
+  margin-right: 100px;
+  font-size: large;
+}
+
+.titulozinho {
+  text-align: center;
+}

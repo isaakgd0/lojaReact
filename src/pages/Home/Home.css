@@ -1,0 +1,163 @@
+.Home {
+    background-color: #0e0f4b;
+    padding: 5px;
+    margin: 0px;
+    width: 5000px;
+    text-align: center;
+    font-size:xx-large;
+    color: #fff;
+  }
+
+/*estilizando os botões*/
+.divBonita {
+  width: 50px;
+  margin: 50px;
+}
+
+.botaoCarrinho {
+  background-color: #090a31;
+  color: #fff;
+  padding: 10px;
+  margin: 40px 2px 2px 2px;
+  cursor: pointer; 
+}
+
+.info {
+  margin-left: 10px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.nomeProduto {
+  font-size: 30px;
+}
+
+.precoProduto {
+  font-size: 25px;
+  display: block;
+}
+
+.infoProduto {
+  font-size: 15px;
+  color: grey;
+}
+
+.precoAntigo {
+  font-size: small;
+  margin-left: 5px;
+  text-decoration: line-through;
+  color: #090a31;
+}
+
+.botaoProduto {
+  display: flex;
+  width: 800px;
+  align-items: top;
+  justify-content: left;
+  background-color: #e4e4e4;
+  border: none;
+  padding: 10px;
+}
+
+.botaoProduto img {
+  width: 300px;
+  height: 300px;
+  margin-right: 5px;
+}
+
+/*estilizando o rodapé da página*/
+.Rodape {
+  align-items: center;
+  justify-content: center;
+  background-color: #090a31;
+  color: #fff;
+  height: 100px;
+}
+
+.Sobre {
+  background-color: #090a31;
+  color: #fff;
+  display: flex;
+  padding: 10px;
+  margin-left: 600px;
+  margin-top: 80px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+/*estilizando a aba do carrinho*/
+.carrinhodeCompras {
+  float: right;
+  background-color: #e4e4e4;
+  height: 500px;
+  width: 300px;
+  box-shadow: 0 2px 10px black;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.headCarrinho {
+  background-color: #090a31;
+  color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  height: 40px;
+  width: 300px;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.totalCompra {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #090a31;
+  float: inline-end;
+  color: #fff;
+  margin-top: 340px;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  width: 270px;
+  border-radius: 0px 0px 0px 15px;
+}
+
+.doCarrinho {
+  padding-left: 20px;
+}
+
+.botaoFinal {
+  background-color: #090a31;
+    color: #fff;
+    height: 25px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+/*banner de ofertas*/
+.bannerOfertas {
+  background-color: blue;
+  font-family: cursive;
+  color: yellow;
+  text-align: center;
+  height: 180px;
+  margin-left: 250px;
+  margin-right: 350px;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.tituloPiscante {
+  font-size: x-large;
+  margin: 0px 0px 0px 15px;
+  color: #fff;
+  font-size: xxx-large;
+  padding-bottom: 60px;
+  animation: piscando 0.015s infinite;
+}
+
+@keyframes piscando {
+  50% {
+    color:yellow;
+  }
+  75% {
+    color: red;
+  }
+} 
