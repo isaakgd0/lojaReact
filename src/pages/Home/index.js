@@ -16,7 +16,7 @@ const items = [
   {id: 2, img: arCondicionadoImage, nome: "Ar Condicionado 220 Volts", precoAntigo: "4.900,00", preco: "2.499,99", info: "Aparelhos de ar condicionado de altíssima qualidade em oferta!! Só hoje!!"},
   {id: 3, img: lavadoraImage, nome: "Lavadora de Roupas Premium Care 11Kg", precoAntigo: "3.499,99", preco: "1.749.99", info: "Lavadoras e Secadoras de altíssima qualidade em oferta!! Só Hoje!!",},
   {id: 4, img: tvImage, nome: "Tevelisor Samsung 32' SmarTV", precoAntigo: "4.249,99", preco: "2.124.99", info: "Tevelisores de atíssima qualidade em oferta!! Só hoje!!",},
-  {id: 5, img: fogaoImage, nome: "Fogão 5 Bocas com Acendimento Automático – Preto", precoAntigo: "2.199,99", precoAntigo: "1.99,99", info: "Fogões de altíssima qualidade em oferta!! Só hoje!!",},
+  {id: 5, img: fogaoImage, nome: "Fogão 5 Bocas com Acendimento Automático – Preto", precoAntigo: "2.199,99", preco: "1.099,99", info: "Fogões de altíssima qualidade em oferta!! Só hoje!!",},
 ];
 
 //ARRAY DO CARRINHO:
